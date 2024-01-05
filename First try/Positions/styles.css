@@ -1,0 +1,23 @@
+#1 {
+    position: static;
+
+}
+
+h2 {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+#2 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+h1 {
+    position: fixed;
+    height: 200px;
+    width: 10px;
+} 
+
