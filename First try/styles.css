@@ -1,0 +1,23 @@
+.small {
+    font-size: small;
+}
+
+.large {
+    font-size: larger;
+}
+
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(white,purple);
+    /* background-image: linear-gradient(to right,white,purple); */   
+}
+
+.box2 {
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(white,purple);
+}
