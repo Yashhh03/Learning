@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: -1;
+    transform-style: preserve-3d;
+}
+
+.background {
+    transform: translateZ(-30px) scale(4);
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+h1 {
+    position: absolute;
+    font-size: 9rem;
+    top: 4rem;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: white;
+}
+
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.desc {
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 40%;
+    left: 60%;
+    transform: translateX(-40%) translateX(-40%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.bg1 {
+    background-image: url(images/2nd.jpg.webp);
+}
+.bg2 {
+    background-image: url(images/mobile.jpg.webp);
+}
+
+.secHead {
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.data {
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
