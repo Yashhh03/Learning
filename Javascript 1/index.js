@@ -14,3 +14,18 @@ else if(marks>70){
 else{
     console.log('D')
 }
+
+
+
+function createRectangle(len, bre) {
+
+    return rectangle={
+        length: len,
+        breadth: bre,
+        draw() {
+            console.log("Drawing Rectangle")
+        }
+    };
+}
+
+let rectangleObj1=createRectangle(5,4)
