@@ -29,3 +29,22 @@ function createRectangle(len, bre) {
 }
 
 let rectangleObj1=createRectangle(5,4)
+
+
+let a = {value: 10};
+let b=a;
+
+a.value++;
+console.log(a.value);
+console.log(b.value);
+
+
+let c=10;
+function inc(c)
+{
+    c++;
+}
+
+inc (c);
+
+console.log(c);
