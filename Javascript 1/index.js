@@ -48,3 +48,12 @@ function inc(c)
 inc (c);
 
 console.log(c);
+
+
+let name = "Yash";
+let message= `This is
+${name} and 
+are you ready
+for the fun`;
+
+console.log(message);
