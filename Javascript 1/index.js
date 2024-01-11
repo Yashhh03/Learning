@@ -57,3 +57,21 @@ are you ready
 for the fun`;
 
 console.log(message);
+
+
+let course = [
+    {no:1, naame:'Yash'},
+    {no:2, naame:'Suryawanshi'}
+];
+
+console.log(course);
+
+let courses = course.find(function(courses){
+    return courses.naame==='Yash';
+})
+console.log(courses);
+
+
+let coursess = course.find(coursess => coursess.naame==='Suryawanshi');
+
+console.log(coursess);
