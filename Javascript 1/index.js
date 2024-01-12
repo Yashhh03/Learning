@@ -75,3 +75,10 @@ console.log(courses);
 let coursess = course.find(coursess => coursess.naame==='Suryawanshi');
 
 console.log(coursess);
+
+
+let number = [1,2,3,4,5,6,7];
+// number.pop();
+// number.shift();
+// number.slice(3,1);
+console.log(number);
