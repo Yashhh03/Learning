@@ -82,3 +82,4 @@ let number = [1,2,3,4,5,6,7];
 // number.shift();
 // number.slice(3,1);
 console.log(number);
+
