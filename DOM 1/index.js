@@ -28,6 +28,25 @@ thirdLink.addEventListener('click', function(event){
 });
 
 
+setTimeout(function(){
+    console.log('Theek hai Bhai');
+},5000);
+
+
+function addPara(){
+    let para = document.createElement('p');
+    para.textContent = '1st Line of this para';
+    document.body.appendChild(para);
+}
+
+function appendNewMessage() {
+    let para = document.createElement('p');
+    para.textContent = '2nd Line if you Know';
+    document.body.appendChild(para);
+}
+
+addPara();
+appendNewMessage();
 
 let myDiv = document.createElement('div');
 
@@ -45,3 +64,4 @@ for(let i=1;i<100;i++){
 }
 
 document.body.appendChild(myDiv);
+
