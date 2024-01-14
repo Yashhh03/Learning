@@ -74,4 +74,4 @@ let newPromise = new Promise(function(resolve,reject){
     resolve(2233);
 });
 
-console.log('Begin');
+console.log('Begin'); 
