@@ -65,3 +65,13 @@ for(let i=1;i<100;i++){
 
 document.body.appendChild(myDiv);
 
+
+
+let newPromise = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        console.group('I am inside promise');
+    },4000);
+    resolve(2233);
+});
+
+console.log('Begin');
