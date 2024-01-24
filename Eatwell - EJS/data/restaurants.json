@@ -1,5 +1,6 @@
 [
     {
+        "id": "r1",
         "name": "MyTaste",
         "address": "Taste Street,Taste",
         "cuisine": "India",
@@ -7,6 +8,7 @@
         "description": "Awesom Taste"
     },
     {
+        "id": "r2",
         "name": "MyTaste2",
         "address": "Taste Street,Taste2",
         "cuisine": "India",
@@ -14,6 +16,7 @@
         "description": "Great Taste"
     },
     {
+        "id": "r3",
         "name": "MyTaste3",
         "address": "Taste Street,Taste3",
         "cuisine": "Russia",
