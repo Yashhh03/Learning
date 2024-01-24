@@ -1,1 +1,23 @@
-[{"name":"MyTaste","address":"Taste Street,Taste","cuisine":"India","website":"https://www.MyTaste.com","description":"Awesom Taste"},{"name":"MyTaste2","address":"Taste Street,Taste2","cuisine":"India","website":"https://www.MyTaste2.com","description":"Great Taste"}]
+[
+    {
+        "name": "MyTaste",
+        "address": "Taste Street,Taste",
+        "cuisine": "India",
+        "website": "https://www.MyTaste.com",
+        "description": "Awesom Taste"
+    },
+    {
+        "name": "MyTaste2",
+        "address": "Taste Street,Taste2",
+        "cuisine": "India",
+        "website": "https://www.MyTaste2.com",
+        "description": "Great Taste"
+    },
+    {
+        "name": "MyTaste3",
+        "address": "Taste Street,Taste3",
+        "cuisine": "Russia",
+        "website": "https://www.MyTaste3.com",
+        "description": "Its Great"
+    }
+]
