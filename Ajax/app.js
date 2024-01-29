@@ -27,4 +27,3 @@ app.use(function (error, req, res, next) {
 db.connectToDatabase().then(function () {
   app.listen(3000);
 });
- 
