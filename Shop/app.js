@@ -1,6 +1,9 @@
 const path = require('path');
 const express = require('express');
 const csrf = require('csurf');
+const expressSession = require('express-session');
+
+const createSessionConfig = require('./config/session');
 
 const db = require('./Database/database');
 const addCsrfTokenMiddleware = require('./middlewares/csrf-token'); 
@@ -17,6 +20,9 @@ app.use(express.static('public'));
 
 app.use(express.urlencoded({extended:false}));
 
+const sessionConfig = createSessionConfig();
+
+app.use(expressSession(sessionConfig));
 app.use(csrf());
 
 app.use(addCsrfTokenMiddleware);
