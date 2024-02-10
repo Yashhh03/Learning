@@ -25,5 +25,4 @@ function createSessionConfig() {
     };
 };
 
-
 module.exports = createSessionConfig;
