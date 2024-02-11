@@ -16,13 +16,13 @@ function createSessionStore() {
 function createSessionConfig() {
     return {
         secret:'super-secret',
-        resave:false,
+        resave: false,
         saveUninitialized: false,
         store: createSessionStore(),
         cookie: {
             maxAge:2*24*60*60*1000
         }
     };
-};
+}
 
 module.exports = createSessionConfig;

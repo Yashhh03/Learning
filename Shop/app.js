@@ -20,7 +20,7 @@ app.use(express.static('public'));
 
 app.use(express.urlencoded({extended:false}));
 
-const sessionConfig = createSessionConfig();
+const sessionConfig = createSessionConfig();    
 
 app.use(expressSession(sessionConfig));
 app.use(csrf());
