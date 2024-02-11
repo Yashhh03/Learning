@@ -47,5 +47,6 @@ async function login(req,res) {
 module.exports = {
     getSignUp:getSignUp,
     getLogin:getLogin,
-    signup:signup
+    signup:signup,
+    login:login
 };
