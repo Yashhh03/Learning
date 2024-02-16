@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Yash",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-mongodb-session": "^3.0.0",
