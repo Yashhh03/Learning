@@ -22,8 +22,6 @@ class Cart {
       });
 
       if (!product) {
-        // product was deleted!
-        // "schedule" for removal from cart
         deletableCartItemProductIds.push(cartItem.product.id);
         continue;
       }

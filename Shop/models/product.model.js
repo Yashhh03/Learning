@@ -8,7 +8,7 @@ class Product {
     this.summary = productData.summary;
     this.price = +productData.price;
     this.description = productData.description;
-    this.image = productData.image; // the name of the image file
+    this.image = productData.image;
     this.updateImageData();
     if (productData._id) {
       this.id = productData._id.toString();
